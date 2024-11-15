@@ -42,3 +42,16 @@
     opacity:1;
     padding-top: 0;
 }
+
+/* ----------Media qwery------- */
+
+@media(max-width:650px)
+{
+    .Programs{
+        flex-direction: column;
+    }
+    .program{
+        flex-basis:100%;
+        margin:20px;
+    }
+}
